@@ -40,16 +40,16 @@
 
 <div class="header" id="head">	
 	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 z-inx-888">
-		<select name="" id="languages" class="form-control">
-			<option value="">Tiếng Việt</option>
-			<option value="">Tiếng Anh</option>
-			<option value="">Tiếng Nhật</option>
-		</select>
+		<select id="slick" class="form-control">
+	      <option value="0" data-imagesrc="images/vietnam.png" selected="selected">Tiếng Việt</option>
+	        <option value="1" data-imagesrc="images/england.jpg">Tiếng Anh</option>
+	        <option value="2"   data-imagesrc="images/japan.png">Tiếng Nhật</option>
+	    </select>
 	</div>
 	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 z-inx-888">
 		<div class="logo">
   		 	<div class="row">
-  		 		<a href="index.html"><img src="images/logo-web2.png" alt=""/></a>		
+  		 		<a href="index.html"><img src="images/Mask Group 2.png" alt=""/></a>		
   		 	</div>			
 	 	</div>
 	</div>
@@ -536,5 +536,14 @@
 	<script>
 	  	AOS.init();
 	</script>
+	   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>  
+  <script>
+    $('#slick').ddslick({
+      width: "150px",
+      imagePosition: "left",
+ 
+});
+  </script>
 </body>
 </html>

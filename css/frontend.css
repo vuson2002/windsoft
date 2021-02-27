@@ -1,3 +1,51 @@
+.dd-select {
+    border-radius: 2px;
+     border: solid 0px #ccc !important; 
+    position: relative;
+    cursor: pointer;
+    background: unset !important;
+}
+
+.dd-pointer-down {
+    border: solid 5px transparent;
+    border-top: solid 5px #fff !important;
+}
+
+.dd-pointer-up {
+    border: solid 5px transparent !important;
+    border-bottom: solid 5px #fff !important;
+    margin-top: -8px;
+}
+
+.dd-selected{
+      color: #fff;
+      margin-top: 5px;
+      padding: 0px !important;
+}
+
+.dd-option-image, .dd-selected-image {
+    vertical-align: middle !important;
+    float: left !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    margin-top: 7px !important;
+    max-width: 20px !important;
+}
+
+.dd-option {
+    padding: 5px !important;
+    display: block;
+    border-bottom: solid 1px #ddd;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+}
+
 .sub-title{
 	font-size: 20px;
 	font-weight: 600;
