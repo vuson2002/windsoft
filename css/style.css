@@ -141,6 +141,33 @@ nav a:focus {
 .banner-wrap {
 	padding-top: 30em;
 }
+
+.banner-wrap p {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.banner-text{
+	width: 35%;
+    position: absolute;
+    top: 93%;
+    left: 15%;
+
+    background: #0d0a0a54;
+    padding: 9px 0px;
+}
+
+.banner-btn{
+	left: 15%;
+	top: 120%;
+	position: absolute;
+}
+
+.banner-btn button{
+	font-weight: 600;
+	color: #000;
+}
+
 .wmuSlider {
 	position: relative;
 	overflow: hidden;
@@ -153,19 +180,18 @@ nav a:focus {
 }
 /* Default Skin */
 .banner_center {
-	width: 50%;
-	position: absolute;
-	top: 40%;
-	left: 25%;
-	text-align: center;
+	width: 65%;
+    position: absolute;
+    top: 75%;
+    left: 15%;
 
 }
 .banner_center h1 {
-	color: #eee;
-	font-family: 'Arvo', serif;
+	color: #FAFAFA;
 	text-transform: uppercase;
 	font-size: 2.4em;
 }
+
 .banner_center h2 {
 	color: #eee;
 	font-family: 'Arvo', serif;
@@ -180,9 +206,9 @@ nav a:focus {
 }
 .wmuSliderPagination {
 	z-index: 2;
-	position: absolute;
-	right: 38%;
-
+    position: absolute;
+    right: 43%;
+    margin-top: 15%;
 }
 ul.wmuSliderPagination {
 	padding:0;
@@ -202,8 +228,8 @@ ul.wmuSliderPagination {
 	-webkit-border-radius: 50%;
 }
 .wmuSliderPagination a.wmuActive {
-	background: #ef664d;
-	border-color: #ef664d;
+	background:#FFCC29;
+	border-color: #FFCC29;
 }
 
 .bannertop_box{
@@ -494,12 +520,14 @@ ul.wmuSliderPagination {
 	.wmuSliderPagination a {
 	display: block;
 	text-indent: -9999px;
-	width:100px;
-	height:15px;
+	width: 70px;
+    height: 5px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 	-ms-border-radius: 10px;
+	background:#fff;
+	border-color: #fff;
 }
 
 /* Default Skin */

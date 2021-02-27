@@ -1,25 +1,68 @@
- 
-/* lg */ 
 
-
-
-
-/*-- responsive-mediaquries --*/
-/*@media(max-width:1200px){
-	.grid_box a:hover .zoom-icon {
-		top:15px;
+@media(max-width:1491px){
+	.banner_center {
+	    width: 67%;
+	    position: absolute;
+	    top: 75%;
+	    left: 15%;
 	}
-	.header .col-md-1{
-		display: none !important;
-	} 
-	.header .col-md-9{
-		width: 80% !important;
-    	float: right !important;
+
+	.banner-btn {
+	    left: 15%;
+	    top: 132%;
+	    position: absolute;
 	}
-}*/
+
+	.banner-text {
+	    width: 35%;
+	    position: absolute;
+	    top: 100%;
+	    left: 15%;
+	}
+
+	.wmuSliderPagination {
+	    z-index: 2;
+	    position: absolute;
+	    right: 42%;
+    	margin-top: 15%;
+	}
+
+}
+
+@media(max-width:1447px){
+	.banner_center {
+	    width: 72%;
+	    position: absolute;
+	    top: 75%;
+	    left: 15%;
+	}
+	.banner_center h1 {
+	    font-size: 1.9em;
+	}
+	.banner-btn {
+	    left: 15%;
+	    top: 132%;
+	    position: absolute;
+	}
+
+	.banner-text {
+	    width: 35%;
+	    position: absolute;
+	    top: 100%;
+	    left: 15%;
+	}
+
+	.wmuSliderPagination {
+	    z-index: 2;
+	    position: absolute;
+	    right: 42%;
+	    margin-top: 17%;
+	}
+
+}
 
 
-@media(min-width:992px) and(max-width:1199px){
+@media(max-width:1199px){
 	.top-menu 
 	{		
 		float:none;
@@ -27,17 +70,40 @@
 		text-align: right;
 	}
 
-	.header .col-sm-7{
+	.banner-btn {
+	    left: 15%;
+	    top: 132%;
+	    position: absolute;
+	}
+
+	.banner-text {
+	    width: 51%;
+	    position: absolute;
+	    top: 100%;
+	    left: 15%;
+	}
+
+	.wmuSliderPagination {
+	    z-index: 2;
+	    position: absolute;
+	    right: 36%;
+	    margin-top: 24%;
+	}
+
+	.footer-mr-50{
+	    margin-right: 32px;
+	}
+	/*.header .col-sm-7{
 		display: inline-block;
     	width: 100%;
-	}
-	.header .col-sm-3{
+	}*/
+	/*.header .col-sm-3{
 		  display: none;
     
 	}
 	.header .col-sm-2{
 		  display: none;
-	}
+	}*/
 
 	.navbar-collapse.collapse{
 	  padding-left: 0;
@@ -48,14 +114,14 @@
     margin-top: 0px !important;
 }
 
-	.top-menu ul {
+	/*.top-menu ul {
 	    margin: 15px 0;
 	    z-index: 999;
 	    position: absolute;
 	    width: 96%;
 	    background: #2e3e4e;
 	    text-align: center;
-	}
+	}*/
 
 	.top-menu ul {
 	    display: none;
@@ -140,7 +206,55 @@
 		font-size: 16px;	
     }
 }
-@media(min-width:801px) and (max-width:991px){
+
+
+@media(max-width:1024px){
+	.banner_center {
+	    width: 72%;
+	    position: absolute;
+	    top: 75%;
+	    left: 15%;
+	}
+	.banner_center h1 {
+	    font-size: 1.9em;
+	}
+	.banner-btn {
+	    left: 15%;
+	    top: 132%;
+	    position: absolute;
+	}
+
+	.banner-text {
+	    width: 69%;
+	    position: absolute;
+	    top: 100%;
+	    left: 15%;
+	}
+
+
+
+
+	.top-menu ul li {
+	    padding: 15px 14px;
+	}
+
+}
+
+
+@media(max-width:1012px){
+	.top-menu ul li {
+    padding: 15px 13px;
+	}
+}
+
+@media(max-width:1000px){
+	.top-menu ul li {
+    padding: 15px 12px;
+	}
+}
+
+
+@media(max-width:991px){
 	.img-top {
 		margin: 3px 0 19px 0;
 		position: relative;
@@ -148,13 +262,75 @@
 		float: left;
 		width: 25%;
 	}
+	.wmuSliderPagination {
+	    z-index: 2;
+	    position: absolute;
+	    right: 36%;
+	    margin-top: 26%;
+	}
+
+	.top-menu ul li {
+        padding: 10px 11px;
+	}
+
+/*	.header .col-sm-1{
+		display: none;
+	}*/
+
+	.header .col-sm-2{
+		margin-top: 7px;
+	}
+	.logo {
+	    float: left;
+	    margin-left: 75px;
+	}
+
+	.contact-text{
+		margin-left: 90px;
+    	margin-top: 0px !important;
+	}
+
 }
+
+@media(max-width: 960px){
+	.logo {
+	    display: none;
+	}
+}
+
 @media(max-width:800px){
+		.wmuSliderPagination {
+	    z-index: 2;
+	    position: absolute;
+	    right: 36%;
+	    margin-top: 13%;
+	}
+
+	.logo {
+	    float: left;
+	    margin-left: 70px;
+	}
+
+	.banner-text {
+	    width: 69%;
+	    position: absolute;
+	    top: 77%;
+	    left: 15%;
+	}
+
    	.header {
    		min-height: 360px;
 	}
 	.banner_center {
-		top: 33%;
+	    width: 80%;
+	    position: absolute;
+	    left: 10%;
+	    top: 50%;
+	}
+	.banner-btn {
+	    left: 15%;
+	    top: 118%;
+	    position: absolute;
 	}
 	.wmuSliderPrev {
 		top: 95px;
@@ -257,16 +433,13 @@
 		padding-top: 35px;
 	}
 	.grid_box a:hover .zoom-icon {
-	top:12px;
+		top:12px;
 	}
 }
 	
 
- 
-
-
 /*----- resposnive-menu -----*/
-@media(max-width:768px){
+@media(max-width:767px){
 	.header-top {
 		padding-top:2em;
 	}
@@ -277,28 +450,50 @@
 	}
 	.top-menu 
 	{		
-		float:none;
-		width: 100%;
+		float:right;
 		text-align: right;
+		margin-right: 0px;
+		width: 138%;
 	}
 
-	.header .col-sm-7{
-		display: inline-block;
+
+
+
+
+	.header .col-sm-1{
+		display: block;
+	}
+
+	.mainmenu {
     	width: 100%;
+    	background: #4B6075;
 	}
-	.header .col-sm-3{
-		display: none;
-    
+
+	.banner-text {
+	    width: 82%;
+	    position: absolute;
+	    top: 68%;
+	    left: 15%;
 	}
-	.header .col-sm-2{
-		display: none;
+
+	.logo {
+	    float: left;
+	    margin-left: 115px;
 	}
 
 	.navbar-collapse.collapse{
 	  padding-left: 0;
 	  margin-top: 0px !important;
+	  margin: inherit;
 	}
-	
+
+	.banner_center {
+	    width: 80%;
+	    position: absolute;
+	    left: 15%;
+	    top: 30%;
+	}
+
 	.ul-tab {
 	    font-size: 18px;
 	    list-style: none;
@@ -326,7 +521,7 @@
 
 	.top-menu  ul
 	{
-		display:none;
+		width: 102%;
 	}
 	.top-menu  ul li 
 	{
@@ -342,14 +537,15 @@
 		display:block;
 		float:none;
 		margin: 0em;
-		border-bottom: 1px solid #4B6075;
+		border-bottom: 1px solid #b0c1d3;
 		border-right:none;
+		text-align: center;
 	}
 	.top-menu ul li {
 
 		padding:15px 0 ;
 	}
-	.top-menu  ul
+/*	.top-menu  ul
 	{
 		margin:15px 0;
 		z-index: 999;
@@ -357,19 +553,22 @@
 		width: 96%;
 		background:#2e3e4e;
 		text-align: center;
-	}
+	}*/
 	.top-menu ul li a {
 		display: block;
 	}
 	.wmuSliderPagination {
-		right: 46%;
+		right: 33%;
 	}
 }
+
+
 @media(max-width:736px){
 	.resp-tab-item {
 		padding: 0px 7px;
 	}
-}    
+} 
+
 @media(max-width:640px){
 	.header-top {
 	padding-top: 2.5em;
@@ -378,7 +577,7 @@
 		font-size: 14px;
 	}
 	.top-menu ul {
-		width: 95%;
+		width: 103%;
 	}	
 	.banner_center {
 		top: 36%;
@@ -394,7 +593,8 @@
 		padding: 5px 0;
 	}
 	.wmuSliderPagination {
-		right: 44%;
+		right: 25%;
+	    margin-top: 18%;
 	}
 	.services-section {
 		padding: 1.5em 0;
@@ -495,6 +695,14 @@
 		top:10px;
 	}
 }
+
+@media(max-width:500px){
+.wmuSliderPagination {
+		right: 23%;
+		margin-top: 22%;
+	}
+}
+
 @media(max-width:480px){
 	.header {
 		min-height: 275px;
