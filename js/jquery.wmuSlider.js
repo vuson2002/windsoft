@@ -15,9 +15,9 @@
         ================================================== */       
         var defaults = {
             animation: 'fade',
-            animationDuration: 600,
+            animationDuration: 800,
             slideshow: true,
-            slideshowSpeed: 2000,
+            slideshowSpeed: 5000,
             slideToStart: 0,
             navigationControl: true,
             paginationControl: true,
