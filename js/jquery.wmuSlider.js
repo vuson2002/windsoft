@@ -17,7 +17,7 @@
             animation: 'fade',
             animationDuration: 800,
             slideshow: true,
-            slideshowSpeed: 5000,
+            slideshowSpeed: 7000,
             slideToStart: 0,
             navigationControl: true,
             paginationControl: true,

@@ -25,6 +25,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <script src="js/jquery.min.js"></script>
+
+<script src="js/scroll.js"></script>
+
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
  <script type="text/javascript">
@@ -36,14 +39,15 @@
 		});
 	</script>
 </head>
-<body style="font-family: Open Sans">
+<body style="font-family: Work Sans">
 
 <div class="header" id="head">	
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 z-inx-888">
+	<div class="header-sticky">
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 z-inx-888">
 		<select id="slick" class="form-control">
 	      <option value="0" data-imagesrc="images/vietnam.png" selected="selected">Tiếng Việt</option>
-	        <option value="1" data-imagesrc="images/england.jpg">Tiếng Anh</option>
-	        <option value="2"   data-imagesrc="images/japan.png">Tiếng Nhật</option>
+	      <option value="1" data-imagesrc="images/england.jpg">Tiếng Anh</option>
+	      <option value="2"   data-imagesrc="images/japan.png">Tiếng Nhật</option>
 	    </select>
 	</div>
 	<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 z-inx-888">
@@ -77,6 +81,8 @@
 		 	</div>
 		 </div>
 	</div>
+	</div>
+	
 	 
   	<div>
    	  	<div class="example1 slide-home">
@@ -171,7 +177,9 @@
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="col-lg-7" data-aos="fade-up">
 											<div class="img-after"></div>
-											<img src="images/wrk-3.png" alt="" width="380px">
+											<div class="tab-img-main">
+												<img src="images/wrk-3.png" alt="">
+											</div>
 											<div class="img-before"></div>
 											<ul class="ul-tab">
 												<li>
@@ -193,7 +201,7 @@
 											</ul>
 										</div>
 										<div class="col-lg-5">
-											<div class="text-content" data-aos="fade-down">
+											<div class="text-content" data-aos="fade-up">
 											<div class="mb-10">
 												<b>Dịch vụ Tài trợ Công nợ</b> là giải pháp ứng trước tiền bán hàng thông qua việc mua lại các Khoản phải thu phát sinh từ giao dịch bán hàng cho các Đơn vị Mua hàng Uy tín tại Việt Nam.
 											</div>
@@ -219,7 +227,10 @@
 								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 									<div class="col-lg-7">
 										<div class="img-after"></div>
-										<img src="images/da-1.png" alt="" width="380px">
+										<div class="tab-img-main">
+											<img src="images/da-1.png" alt="">
+										</div>
+										
 										<div class="img-before"></div>
 										<ul class="ul-tab">
 											<li>
@@ -264,7 +275,9 @@
 								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">						
 									<div class="col-lg-7">
 										<div class="img-after"></div>
-										<img src="images/da-5.png" alt="" width="380px">
+										<div class="tab-img-main">
+											<img src="images/da-5.png" alt="">
+										</div>
 										<div class="img-before"></div>
 										<ul class="ul-tab">
 											<li>
@@ -312,56 +325,56 @@
 	</div>
 
 </div>
-		<div class="works-section" id="work" id="work">
-			<div class="container">
-			   <div class="works-header">
-					<h3>vì sao lựa chọn IFC?</h3>
-					<span>	
-						Chúng tôi hiểu Nguồn vốn quyết định tương lại phát triển của doanh nghiệp. Vì vậy, chúng tôi sáng tạo Công nghệ để góp phần phát triển Kỷ nguyên số cho Chuỗi Cung Ứng doanh nghiệp Việt Nam trong tương lai.
-					</span>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-up"> 
-				      	<img src="images/customer-1.png" alt="">
-					  	<div class="inside-wrk-block">
-					      	<img class="corner" src="images/Path764.png" alt="">
-	     				  	<h5>Khách hàng</h5>
-						  	<p>Giải pháp Tài trợ Công nợ thông qua mua lại các Khoản phải thu, đặc biệt phù hợp với doanh nghiệp VVVN và siêu nhỏ</p>
-						  	
-						  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
-			   		 			<button type="button" class="color-orange">Đăng ký</button>
-			   		 		</div>
-					  	</div>	  
-				    </div>
-
-					<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-down">
-				      	<img src="images/partner.png" alt="">
-					  	<div class="inside-wrk-block">
-					      	<img class="corner" src="images/Path764.png" alt="">
-	     				  	<h5>Đối tác</h5>
-						  	<p>Tăng cường Quan hệ tương hỗ bền vững với Chuỗi Cung ứng, đồng thời tối ưu hiệu quả quản trị nguồn vốn và công nợ</p>
-						  	
-						  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
-			   		 			<button type="button" class="color-orange">Đăng ký</button>
-			   		 		</div>
-					  	</div>	  
-				    </div>
-
-					<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-up">
-				      	<img src="images/investors.png" alt="">
-					  	<div class="inside-wrk-block">
-					      	<img class="corner" src="images/Path764.png" alt="">
-	     				  	<h5>Nhà đầu tư</h5>
-						  	<p>Mang lại cơ hội đầu tư với danh mục đa dạng, rủi ro thấp và lợi suất hấp dẫn để cùng đồng hành và phát triển</p>
-						  	
-						  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
-			   		 			<button type="button" class="color-orange">Đăng ký</button>
-			   		 		</div>
-					  	</div>	  
-				    </div>				
-				</div>
-			</div>
+<div class="works-section" id="work" id="work">
+	<div class="container">
+	   <div class="works-header">
+			<h3>vì sao lựa chọn IFC?</h3>
+			<span>	
+				Chúng tôi hiểu Nguồn vốn quyết định tương lại phát triển của doanh nghiệp. Vì vậy, chúng tôi sáng tạo Công nghệ để góp phần phát triển Kỷ nguyên số cho Chuỗi Cung Ứng doanh nghiệp Việt Nam trong tương lai.
+			</span>
 		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-up"> 
+		      	<img src="images/customer-1.png" alt="">
+			  	<div class="inside-wrk-block">
+			      	<img class="corner" src="images/Path764.png" alt="">
+ 				  	<h5>Khách hàng</h5>
+				  	<p>Giải pháp Tài trợ Công nợ thông qua mua lại các Khoản phải thu, đặc biệt phù hợp với doanh nghiệp VVVN và nhỏ</p>
+				  	
+				  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
+	   		 			<button type="button" class="color-orange">Đăng ký</button>
+	   		 		</div>
+			  	</div>	  
+		    </div>
+
+			<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-up">
+		      	<img src="images/partner.png" alt="">
+			  	<div class="inside-wrk-block">
+			      	<img class="corner" src="images/Path764.png" alt="">
+ 				  	<h5>Đối tác</h5>
+				  	<p>Tăng cường Quan hệ tương hỗ bền vững với Chuỗi Cung ứng, đồng thời tối ưu hiệu quả quản trị nguồn vốn và công nợ</p>
+				  	
+				  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
+	   		 			<button type="button" class="color-orange">Đăng ký</button>
+	   		 		</div>
+			  	</div>	  
+		    </div>
+
+			<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12" data-aos="fade-up">
+		      	<img src="images/investors.png" alt="">
+			  	<div class="inside-wrk-block">
+			      	<img class="corner" src="images/Path764.png" alt="">
+ 				  	<h5>Nhà đầu tư</h5>
+				  	<p>Mang lại cơ hội đầu tư với danh mục đa dạng, rủi ro thấp và lợi suất hấp dẫn để cùng đồng hành và phát triển</p>
+				  	
+				  	<div style="border: 1px #000 solid; display: inline-block; float: left; height: 40px; width: 160px; padding-left: 8px; transition: 0.4s;">
+	   		 			<button type="button" class="color-orange">Đăng ký</button>
+	   		 		</div>
+			  	</div>	  
+		    </div>				
+		</div>
+	</div>
+</div>
 
 		<div class="device-section" id="work" id="work">
 		   <div class="device-header mb-20">
@@ -370,7 +383,7 @@
 			<div>
 				<div class="container">	
 					<div class="row mb-20">		
-						<div class="col-md-6 col-lg-4" data-aos="fade-down">						 
+						<div class="col-md-6 col-lg-4" data-aos="fade-up">						 
 							<div class="col-md-12 card-body device-box-shadow">
 								<div class="row pd-15">
 									<img src="images/optimization.png" alt="">
@@ -383,7 +396,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 col-lg-4" data-aos="fade-down">		
+						<div class="col-md-6 col-lg-4" data-aos="fade-up">		
 							<div class="col-md-12 card-body device-box-shadow">
 								<div class="row pd-15">
 									<img src="images/money1.png" alt="">
@@ -395,7 +408,7 @@
 								</ul>	
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-4" data-aos="fade-down">	
+						<div class="col-md-6 col-lg-4" data-aos="fade-up">	
 							<div class="col-md-12 card-body device-box-shadow">
 								<div class="row pd-15">
 									<img src="images/mortgage-loan.png" alt="">
