@@ -247,8 +247,7 @@ a#scrollUp i{
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	font-weight: 600;
-	padding: 0;
-	padding-bottom: 10px;
+  padding-bottom: 2px !important;
 }
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{

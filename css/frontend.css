@@ -66,9 +66,11 @@
 }
 
 .btn-login-signup{
-    padding: 7px 28px 4px !important;
     color: #000 !important;
     background: #FFCC29;
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+    padding-top: 4px !important;
 }
 
 .btn-login-signup:hover{
